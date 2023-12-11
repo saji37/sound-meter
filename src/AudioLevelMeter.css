@@ -1,0 +1,92 @@
+.container {
+    width: 26px; /* Adjust the size of the circular container */
+    height: 26px;
+    background-color: rgb(26, 115, 232);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .meter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    padding: 5%;
+  }
+  
+  .bar0 {
+    width: 20%;
+    border-radius: 5px;
+    max-height: 70%;
+    min-height: 15%;
+  }
+  .bar1 {
+    width: 20%;
+    border-radius: 5px;
+    max-height: 95%;
+    min-height: 15%;
+  }
+  
+  .bar2 {
+    width: 20%;
+    border-radius: 5px;
+    max-height: 70%;
+    min-height: 15%;
+  }
+  
+  .bar0,
+  .bar1,
+  .bar2 {
+    transition: height 0.2s linear; /* Add transition property */
+  }
+  
+  .container {
+    width: 26px; /* Adjust the size of the circular container */
+    height: 26px;
+    background-color: rgb(26, 115, 232);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .meter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    padding: 10%;
+  }
+  
+  .bar0 {
+    width: 20%;
+    border-radius: 5px;
+    max-height: 70%;
+    min-height: 15%;
+  }
+  .bar1 {
+    width: 20%;
+    border-radius: 5px;
+    max-height: 95%;
+    min-height: 15%;
+  }
+  
+  .bar2 {
+    width: 20%;
+    border-radius: 5px;
+    max-height: 70%;
+    min-height: 15%;
+  }
+  
+  .bar0,
+  .bar1,
+  .bar2 {
+    transition: height 0.1s linear;
+  }
+  
